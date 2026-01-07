@@ -1,0 +1,25 @@
+.App {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 40px 0;
+}
+
+.btn {
+    padding: 5px;
+    background-color: rgb(200, 199, 99);
+    border-radius: 5px;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: red;
+    cursor: pointer;
+    transform: scale(1.2);
+}

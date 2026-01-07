@@ -17,11 +17,37 @@ function App() {
         ]);
     };
 
+    const removeToDoHandler = (id) => {
+        setTodos(todos.filter((todo) => todo.id !== id));
+    };
+
+    const toggleDone = (id) => {
+        setTodos(
+            todos.map((todo) =>
+                todo.id === id ? { ...todo, isDone: !todo.isDone } : todo
+            )
+        );
+    };
+
+    const removeAllTodos = () => {
+        setTodos([]);
+    };
+
+    const removeCompletedTodos = () => {
+        setTodos(todos.filter((todo) => !todo.isDone));
+    };
+
     return (
         <div className="App">
             <h1>ToDo App</h1>
             <ToDoForm addToDo={addToDoHandler} />
-            <ToDoList todos={todos} />
+            <ToDoList
+                todos={todos}
+                removeToDo={removeToDoHandler}
+                toggleDone={toggleDone}
+                removeAllTodos={removeAllTodos}
+                removeCompletedTodos={removeCompletedTodos}
+            />
         </div>
     );
 }
