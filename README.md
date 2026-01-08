@@ -6,16 +6,6 @@ This project was created to practice core React fundamentals, clean component ar
 🔗 **Live Demo:**  
 👉 https://kakbi.github.io/todo-react-app/
 
----
-
-## 📸 Preview
-
-> _(You can add a screenshot or GIF here later)_  
-> Example:
-> ![Todo App Screenshot](./screenshot.png)
-
----
-
 ## ✨ Features
 
 -   **Add new tasks** to the list
