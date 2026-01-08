@@ -10,16 +10,16 @@ h1 {
 
 .btn {
     padding: 5px;
-    background-color: rgb(200, 199, 99);
+    background-color: #f0c5c9;
     border-radius: 5px;
     border: 2px solid white;
-    color: rgb(255, 255, 255);
+    color: #fff;
     margin-right: 10px;
     cursor: pointer;
 }
 
 .btn:hover {
-    color: red;
+    color: #ff6f61;
     cursor: pointer;
     transform: scale(1.2);
 }

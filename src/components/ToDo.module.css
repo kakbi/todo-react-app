@@ -5,28 +5,29 @@
     margin: 15px 0;
     font-size: 1.5rem;
     border-radius: 5px;
-    border: 2px solid #555;
-    color: #112d49;
-    background-color: #fbfef9;
+    border: 2px solid #d3e1e8;
+    color: #4a4a4a;
+    background-color: #f0f4f8;
     user-select: none;
 }
 
 .todoText {
     width: 100%;
     text-align: left;
+    font-size: 32px;
 }
 
 .todoIcon {
     font-size: 1.8rem;
     margin-right: 10px;
-    color: #3f9f7f;
+    color: #a4ca81;
 }
 
 .todoIsDone {
-    color: grey;
-    border: 2px solid rgb(154, 139, 139);
-    background-color: #555;
-    text-decoration: line-through rgb(168, 97, 97);
+    color: #c7c7c7;
+    border: 2px solid #e3e3e3;
+    background-color: #e0e0e0;
+    text-decoration: line-through #b7d8d5;
 }
 
 .deleteBin {
@@ -34,19 +35,19 @@
 }
 
 .deleteBin:hover {
-    color: red;
+    color: #ff6f61;
     cursor: pointer;
     transform: scale(1.2);
 }
 
 .checkFill:hover {
-    color: #3f9f7f;
+    color: #a4ca81;
     cursor: pointer;
     transform: scale(1.2);
 }
 
 .arrowGoBack:hover {
-    color: #cd922c;
+    color: #f0b97b;
     cursor: pointer;
     transform: scale(1.2);
 }
